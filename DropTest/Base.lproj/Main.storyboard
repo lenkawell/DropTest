@@ -22,7 +22,9 @@
                     <toolbarItems>
                         <barButtonItem title="Show Popover" id="d9O-h5-Cr2">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="ShowPopover" id="tkO-Hg-yx7"/>
+                                <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="ShowPopover" popoverAnchorBarButtonItem="d9O-h5-Cr2" id="tkO-Hg-yx7">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
                             </connections>
                         </barButtonItem>
                     </toolbarItems>
@@ -177,7 +179,7 @@
     </scenes>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
